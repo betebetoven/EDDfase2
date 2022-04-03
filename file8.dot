@@ -1,0 +1,1364 @@
+digraph G
+{label="expresion regular"
+        node[shape = circle]
+        node[style = filled]
+        node[fillcolor = "#EEEEE"]
+        node[color = "#EEEEE"]
+        node[color = "#31CEF0"]
+        edge [style=invis]
+
+2127862399[label="-1"]
+ 483832253[label=".",fillcolor ="#5E2E0A"]
+ 1144838820[label="0"]
+ 994173375[label="1"]
+ 1637651402[label="2"]
+ 1215208733[label="3"]
+ 1789237070[label="4"]
+ 1583210428[label="5"]
+ 1541019006[label="6"]
+ 1742798189[label="7"]
+ 557386040[label="8"]
+ 287933084[label="9"]
+ 441652258[label="10"]
+ 2050525584[label="11"]
+ 320945958[label="12"]
+ 1312907964[label="13"]
+ 1278319954[label="14"]
+ 1929115981[label="15"]
+ 1748574267[label="16"]
+ 757660418[label="17"]
+ 1840457976[label="18"]
+ 1076856210[label="19"]
+ 1639341396[label="20"]
+ 187452043[label="21"]
+ 2133612542[label="22"]
+ 1133731484[label="23"]
+ 270333767[label="24"]
+ 2030931933[label="25"]
+ 1677960357[label="0"]
+ 1035825415[label="1"]
+ 1248595768[label="2"]
+ 1602880207[label="3"]
+ 651535127[label="4"]
+ 1891031939[label="5"]
+ 1510543202[label="6"]
+ 1436218006[label="7"]
+ 1591492137[label="8"]
+ 410033330[label="9"]
+ 177267393[label="10"]
+ 144486215[label="11"]
+ 923727115[label="12"]
+ 730298964[label="13"]
+ 646710031[label="14"]
+ 1267168782[label="15"]
+ 199320792[label="16"]
+ 455404074[label="17"]
+ 1576408634[label="18"]
+ 758201484[label="19"]
+ 771119702[label="20"]
+ 289378424[label="21"]
+ 2081751971[label="22"]
+ 1482986993[label="23"]
+ 1205817409[label="24"]
+ 705602706[label="25"]
+ 2119344747[label="26"]
+ 48589645[label="27"]
+ 1065713160[label="28"]
+ 1617983326[label="29"]
+ 190496961[label="30"]
+ 575438308[label="31"]
+ 917316251[label="32"]
+ 1434741143[label="33"]
+ 134604590[label="34"]
+ 1231493271[label="35"]
+ 377570010[label="36"]
+ 1623148876[label="37"]
+ 1201991394[label="38"]
+ 922150177[label="39"]
+ 721286839[label="40"]
+ 814886797[label="41"]
+ 1344345219[label="42"]
+ 1375681611[label="43"]
+ 343023757[label="44"]
+ 901614537[label="45"]
+ 1843397873[label="46"]
+ 1171611746[label="47"]
+ 1076250141[label="48"]
+ 421293587[label="49"]
+ 1949709901[label="50"]
+ 445554393[label="51"]
+ 1760175419[label="52"]
+ 318550723[label="53"]
+ 1472031375[label="54"]
+ 967532279[label="55"]
+ 5338884[label=".",fillcolor ="#5E2E0A"]
+ 2009900903[label="56"]
+ 1259950595[label=".",fillcolor ="#5E2E0A"]
+ 682025329[label="57"]
+ 591678006[label=".",fillcolor ="#5E2E0A"]
+ 832648870[label="26"]
+ 816440283[label=".",fillcolor ="#5E2E0A"]
+ 798695894[label=".",fillcolor ="#5E2E0A"]
+ 772791273[label=".",fillcolor ="#5E2E0A"]
+ 379833480[label="27"]
+ 1768641212[label=".",fillcolor ="#5E2E0A"]
+ 529026006[label=".",fillcolor ="#5E2E0A"]
+ 1325931357[label=".",fillcolor ="#5E2E0A"]
+ 1195854264[label="28"]
+ 1946815838[label="29"]
+ 687947506[label="30"]
+ 643570300[label="58"]
+ 1529580934[label="59"]
+ 2146372416[label="60"]
+ 1597594849[label="61"]
+ 435167872[label="62"]
+ 506518405[label="63"]
+ 427980296[label=".",fillcolor ="#5E2E0A"]
+ 214560653[label="64"]
+ 347416758[label=".",fillcolor ="#5E2E0A"]
+ 205595990[label="65"]
+ 116994272[label=".",fillcolor ="#5E2E0A"]
+ 1158611509[label="31"]
+ 2026005178[label=".",fillcolor ="#5E2E0A"]
+ 2100073313[label=".",fillcolor ="#5E2E0A"]
+ 849199636[label=".",fillcolor ="#5E2E0A"]
+ 264138968[label="32"]
+ 1677857831[label=".",fillcolor ="#5E2E0A"]
+ 2100048989[label=".",fillcolor ="#5E2E0A"]
+ 561890446[label=".",fillcolor ="#5E2E0A"]
+ 1572423881[label="33"]
+ 695131253[label=".",fillcolor ="#5E2E0A"]
+ 897358809[label=".",fillcolor ="#5E2E0A"]
+ 2062184524[label=".",fillcolor ="#5E2E0A"]
+ 1828884696[label="34"]
+ 844133497[label=".",fillcolor ="#5E2E0A"]
+ 1663271865[label=".",fillcolor ="#5E2E0A"]
+ 1256384385[label=".",fillcolor ="#5E2E0A"]
+ 866073173[label="35"]
+ 48063459[label=".",fillcolor ="#5E2E0A"]
+ 2098992714[label=".",fillcolor ="#5E2E0A"]
+ 547305607[label=".",fillcolor ="#5E2E0A"]
+ 1788408659[label="36"]
+ 62085016[label="37"]
+ 503365602[label="38"]
+ 1191372709[label="39"]
+ 1781368445[label="40"]
+ 1941639991[label="41"]
+ 1751080205[label="42"]
+ 942714988[label="43"]
+ 1042863993[label="44"]
+ 354502944[label="45"]
+ 126147004[label="46"]
+ 973777648[label="47"]
+ 1113666007[label="48"]
+ 1570117874[label="49"]
+ 2088661957[label="50"]
+ 332139408[label="51"]
+ 1483243447[label="52"]
+ 894746048[label="53"]
+ 976949492[label="54"]
+ 1230507176[label="66"]
+ 1381386227[label="67"]
+ 1123830468[label="68"]
+ 547507935[label="69"]
+ 697707311[label="70"]
+ 1226803249[label="71"]
+ 1763000764[label="72"]
+ 1534279415[label=".",fillcolor ="#5E2E0A"]
+ 1134864869[label="73"]
+ 1984954272[label=".",fillcolor ="#5E2E0A"]
+ 890525812[label="74"]
+ 2001882279[label=".",fillcolor ="#5E2E0A"]
+ 299837481[label="75"]
+ 417621837[label=".",fillcolor ="#5E2E0A"]
+ 254041053[label="76"]
+ 1794509290[label=".",fillcolor ="#5E2E0A"]
+ 42007293[label="77"]
+ 971324399[label=".",fillcolor ="#5E2E0A"]
+ 347239869[label="55"]
+ 1322354584[label=".",fillcolor ="#5E2E0A"]
+ 1258539949[label=".",fillcolor ="#5E2E0A"]
+ 1529457505[label=".",fillcolor ="#5E2E0A"]
+ 1546727972[label=".",fillcolor ="#5E2E0A"]
+ 505316221[label=".",fillcolor ="#5E2E0A"]
+ 1268088240[label=".",fillcolor ="#5E2E0A"]
+ 1567732992[label="56"]
+ 142871704[label=".",fillcolor ="#5E2E0A"]
+ 1651205022[label=".",fillcolor ="#5E2E0A"]
+ 41155230[label=".",fillcolor ="#5E2E0A"]
+ 1383761509[label=".",fillcolor ="#5E2E0A"]
+ 2058526846[label=".",fillcolor ="#5E2E0A"]
+ 1132219173[label=".",fillcolor ="#5E2E0A"]
+ 1590099678[label="57"]
+ 1476985549[label=".",fillcolor ="#5E2E0A"]
+ 928508130[label=".",fillcolor ="#5E2E0A"]
+ 374585422[label=".",fillcolor ="#5E2E0A"]
+ 2139788372[label=".",fillcolor ="#5E2E0A"]
+ 1871048194[label=".",fillcolor ="#5E2E0A"]
+ 1738345448[label=".",fillcolor ="#5E2E0A"]
+ 1812422301[label="58"]
+ 1191464829[label=".",fillcolor ="#5E2E0A"]
+ 129059937[label=".",fillcolor ="#5E2E0A"]
+ 150783284[label="78"]
+ 1582928128[label="79"]
+ 994267665[label="80"]
+ 907858780[label=".",fillcolor ="#5E2E0A"]
+ 1487365582[label="81"]
+ 1248079435[label=".",fillcolor ="#5E2E0A"]
+ 1796615884[label="59"]
+ 994084545[label=".",fillcolor ="#5E2E0A"]
+ 1487543666[label=".",fillcolor ="#5E2E0A"]
+ 869758554[label=".",fillcolor ="#5E2E0A"]
+ 1777163938[label=".",fillcolor ="#5E2E0A"]
+ 1453632464[label="60"]
+ 1592618491[label=".",fillcolor ="#5E2E0A"]
+ 1442883034[label=".",fillcolor ="#5E2E0A"]
+ 1427892726[label=".",fillcolor ="#5E2E0A"]
+ 647111342[label=".",fillcolor ="#5E2E0A"]
+ 321192242[label="61"]
+ 1087916281[label=".",fillcolor ="#5E2E0A"]
+ 1250315597[label=".",fillcolor ="#5E2E0A"]
+ 2100728289[label=".",fillcolor ="#5E2E0A"]
+ 1184965604[label=".",fillcolor ="#5E2E0A"]
+ 1153180745[label="62"]
+ 1009313206[label=".",fillcolor ="#5E2E0A"]
+ 1968751179[label=".",fillcolor ="#5E2E0A"]
+ 975790343[label="63"]
+ 521311335[label=".",fillcolor ="#5E2E0A"]
+ 1684854630[label=".",fillcolor ="#5E2E0A"]
+ 1461001018[label="64"]
+ 642087302[label=".",fillcolor ="#5E2E0A"]
+ 771715205[label=".",fillcolor ="#5E2E0A"]
+ 799692219[label="65"]
+ 1343838143[label=".",fillcolor ="#5E2E0A"]
+ 1562221939[label=".",fillcolor ="#5E2E0A"]
+ 187737357[label="66"]
+ 1984577117[label=".",fillcolor ="#5E2E0A"]
+ 1819552644[label=".",fillcolor ="#5E2E0A"]
+ 1572066684[label="67"]
+ 1403325194[label=".",fillcolor ="#5E2E0A"]
+ 1958375413[label=".",fillcolor ="#5E2E0A"]
+ 962548461[label=".",fillcolor ="#5E2E0A"]
+ 2055501967[label=".",fillcolor ="#5E2E0A"]
+ 16957838[label="68"]
+ 652268444[label=".",fillcolor ="#5E2E0A"]
+ 1709913495[label=".",fillcolor ="#5E2E0A"]
+ 1014135205[label=".",fillcolor ="#5E2E0A"]
+ 736874772[label=".",fillcolor ="#5E2E0A"]
+ 188193734[label="69"]
+ 927744186[label=".",fillcolor ="#5E2E0A"]
+ 417118375[label=".",fillcolor ="#5E2E0A"]
+ 1842002393[label=".",fillcolor ="#5E2E0A"]
+ 1511319053[label=".",fillcolor ="#5E2E0A"]
+ 260580453[label="70"]
+ 1928117427[label=".",fillcolor ="#5E2E0A"]
+ 1246807878[label=".",fillcolor ="#5E2E0A"]
+ 923366543[label="71"]
+ 2045560071[label=".",fillcolor ="#5E2E0A"]
+ 1861416877[label=".",fillcolor ="#5E2E0A"]
+ 584349634[label=".",fillcolor ="#5E2E0A"]
+ 1585824283[label=".",fillcolor ="#5E2E0A"]
+ 1105129521[label=".",fillcolor ="#5E2E0A"]
+ 954742840[label=".",fillcolor ="#5E2E0A"]
+ 964895360[label="72"]
+ 1231469233[label=".",fillcolor ="#5E2E0A"]
+ 2131723476[label=".",fillcolor ="#5E2E0A"]
+ 115297013[label=".",fillcolor ="#5E2E0A"]
+ 652803980[label=".",fillcolor ="#5E2E0A"]
+ 1520921298[label=".",fillcolor ="#5E2E0A"]
+ 1494051958[label=".",fillcolor ="#5E2E0A"]
+ 628694336[label="73"]
+ 1150063356[label=".",fillcolor ="#5E2E0A"]
+ 622625093[label=".",fillcolor ="#5E2E0A"]
+ 398468940[label=".",fillcolor ="#5E2E0A"]
+ 2059316201[label=".",fillcolor ="#5E2E0A"]
+ 1510333744[label=".",fillcolor ="#5E2E0A"]
+ 458385820[label=".",fillcolor ="#5E2E0A"]
+ 230610941[label="74"]
+ 38851648[label=".",fillcolor ="#5E2E0A"]
+ 1992844647[label=".",fillcolor ="#5E2E0A"]
+ 2120154283[label="75"]
+ 94690722[label=".",fillcolor ="#5E2E0A"]
+ 30604162[label=".",fillcolor ="#5E2E0A"]
+ 872699266[label="76"]
+ 1035361293[label=".",fillcolor ="#5E2E0A"]
+ 517787604[label=".",fillcolor ="#5E2E0A"]
+ 147077478[label="77"]
+ 519751097[label=".",fillcolor ="#5E2E0A"]
+ 295937119[label="78"]
+ 1769565136[label="79"]
+ 1088381072[label="80"]
+ 146842175[label="81"]
+ 72187428[label="82"]
+ 650687126[label="83"]
+ 489200959[label="84"]
+ 284427775[label="85"]
+ 2133325211[label="86"]
+ 479769835[label="87"]
+ 1166021410[label="88"]
+ 1969958288[label="89"]
+ 891327883[label="90"]
+ 1824931880[label="91"]
+ 689588113[label="92"]
+ 95545487[label="93"]
+ 873249151[label="94"]
+ 1779787990[label="95"]
+ 298355914[label="96"]
+ 456653804[label="97"]
+ 1243705012[label="98"]
+ 196340990[label="99"]
+ 1590202270[label="82"]
+ 2047145776[label="83"]
+ 990994954[label="84"]
+ 802270602[label="85"]
+ 897541009[label="86"]
+ 1755295609[label="87"]
+ 1479446866[label="88"]
+ 2050083360[label="89"]
+ 882658588[label="90"]
+ 569235601[label="91"]
+ 233142783[label="92"]
+ 2037498537[label="93"]
+ 802395190[label="94"]
+ 1622534157[label="95"]
+ 1178160997[label="96"]
+ 833272193[label="97"]
+ 40626598[label="98"]
+ 1297189990[label="99"]
+ 1092591822[label="100"]
+ 622690269[label="101"]
+ 2028372993[label="102"]
+ 957683143[label="103"]
+ 95476731[label="104"]
+ 1268629255[label="105"]
+ 127401209[label="106"]
+ 381516513[label="107"]
+ 366023886[label="108"]
+ 856880372[label="109"]
+ 190490203[label="110"]
+ 1993191331[label="111"]
+ 1797763792[label="112"]
+ 1337347604[label="113"]
+ 293618119[label="114"]
+ 170611939[label="115"]
+ 1548535364[label="116"]
+ 569894199[label="117"]
+ 854202039[label="118"]
+ 1656143941[label="119"]
+ 1492276401[label="120"]
+ 1186127045[label="121"]
+ 604976394[label="122"]
+ 1886350630[label="123"]
+ 989001798[label="124"]
+ 1794531113[label="125"]
+ 923570200[label="126"]
+ 1015139714[label="127"]
+ 287056540[label="128"]
+ 1238055041[label="129"]
+ 437583344[label="130"]
+ 676060909[label="131"]
+ 1488130490[label="132"]
+ 1210856733[label="133"]
+ 1978317461[label="134"]
+ 52477555[label="135"]
+ 1130250604[label="136"]
+ 1794314439[label="137"]
+ 1257058590[label="138"]
+ 1278790934[label="139"]
+ 2111615196[label="140"]
+ 257684104[label="141"]
+ 740120508[label="142"]
+ 650608468[label="143"]
+ 1048928512[label="144"]
+ 1855589354[label="145"]
+ 687608114[label="146"]
+ 895280806[label="147"]
+ 541330540[label="148"]
+ 507479765[label="149"]
+ 1443000737[label="150"]
+ 79283217[label="151"]
+ 69115782[label="152"]
+ 1727379710[label="153"]
+ 591352568[label="154"]
+ 1777112002[label="155"]
+ 436126678[label="156"]
+ 1384626783[label="157"]
+ 192318053[label="158"]
+ 109673034[label="159"]
+ 1770453310[label="160"]
+ 113042195[label="161"]
+ 958817283[label="162"]
+ 1957691975[label="163"]
+ 715213542[label="164"]
+ 1273270490[label="165"]
+ 1097397209[label="166"]
+ 893281161[label="167"]
+ 367589810[label="168"]
+ 2053491093[label="169"]
+ 2090142523[label="170"]
+ 988876043[label="171"]
+ 1745241742[label="172"]
+ 1014698874[label="173"]
+ 1751325469[label="174"]
+
+2127862399->1144838820[dir = both];
+2127862399->1677960357[dir = both];
+1677960357->1035825415[dir = both];
+1035825415->1248595768[dir = both];
+1248595768->1602880207[dir = both];
+1602880207->651535127[dir = both];
+651535127->1891031939[dir = both];
+1891031939->1510543202[dir = both];
+1510543202->1436218006[dir = both];
+1436218006->1591492137[dir = both];
+1591492137->410033330[dir = both];
+410033330->177267393[dir = both];
+177267393->144486215[dir = both];
+144486215->923727115[dir = both];
+923727115->730298964[dir = both];
+730298964->646710031[dir = both];
+646710031->1267168782[dir = both];
+1267168782->199320792[dir = both];
+199320792->455404074[dir = both];
+455404074->1576408634[dir = both];
+1576408634->758201484[dir = both];
+758201484->771119702[dir = both];
+771119702->289378424[dir = both];
+289378424->2081751971[dir = both];
+2081751971->1482986993[dir = both];
+1482986993->1205817409[dir = both];
+1205817409->705602706[dir = both];
+705602706->2119344747[dir = both];
+2119344747->48589645[dir = both];
+48589645->1065713160[dir = both];
+1065713160->1617983326[dir = both];
+1617983326->190496961[dir = both];
+190496961->575438308[dir = both];
+575438308->917316251[dir = both];
+917316251->1434741143[dir = both];
+1434741143->134604590[dir = both];
+134604590->1231493271[dir = both];
+1231493271->377570010[dir = both];
+377570010->1623148876[dir = both];
+1623148876->1201991394[dir = both];
+1201991394->922150177[dir = both];
+922150177->721286839[dir = both];
+721286839->814886797[dir = both];
+814886797->1344345219[dir = both];
+1344345219->1375681611[dir = both];
+1375681611->343023757[dir = both];
+343023757->901614537[dir = both];
+901614537->1843397873[dir = both];
+1843397873->1171611746[dir = both];
+1171611746->1076250141[dir = both];
+1076250141->421293587[dir = both];
+421293587->1949709901[dir = both];
+1949709901->445554393[dir = both];
+445554393->1760175419[dir = both];
+1760175419->318550723[dir = both];
+318550723->1472031375[dir = both];
+1472031375->967532279[dir = both];
+967532279->2009900903[dir = both];
+2009900903->682025329[dir = both];
+682025329->643570300[dir = both];
+643570300->1529580934[dir = both];
+1529580934->2146372416[dir = both];
+2146372416->1597594849[dir = both];
+1597594849->435167872[dir = both];
+435167872->506518405[dir = both];
+506518405->214560653[dir = both];
+214560653->205595990[dir = both];
+205595990->1230507176[dir = both];
+1230507176->1381386227[dir = both];
+1381386227->1123830468[dir = both];
+1123830468->547507935[dir = both];
+547507935->697707311[dir = both];
+697707311->1226803249[dir = both];
+1226803249->1763000764[dir = both];
+1763000764->1134864869[dir = both];
+1134864869->890525812[dir = both];
+890525812->299837481[dir = both];
+299837481->254041053[dir = both];
+254041053->42007293[dir = both];
+42007293->150783284[dir = both];
+150783284->1582928128[dir = both];
+1582928128->994267665[dir = both];
+994267665->1487365582[dir = both];
+1487365582->1590202270[dir = both];
+1590202270->2047145776[dir = both];
+2047145776->990994954[dir = both];
+990994954->802270602[dir = both];
+802270602->897541009[dir = both];
+897541009->1755295609[dir = both];
+1755295609->1479446866[dir = both];
+1479446866->2050083360[dir = both];
+2050083360->882658588[dir = both];
+882658588->569235601[dir = both];
+569235601->233142783[dir = both];
+233142783->2037498537[dir = both];
+2037498537->802395190[dir = both];
+802395190->1622534157[dir = both];
+1622534157->1178160997[dir = both];
+1178160997->833272193[dir = both];
+833272193->40626598[dir = both];
+40626598->1297189990[dir = both];
+1297189990->1092591822[dir = both];
+1092591822->622690269[dir = both];
+622690269->2028372993[dir = both];
+2028372993->957683143[dir = both];
+957683143->95476731[dir = both];
+95476731->1268629255[dir = both];
+1268629255->127401209[dir = both];
+127401209->381516513[dir = both];
+381516513->366023886[dir = both];
+366023886->856880372[dir = both];
+856880372->190490203[dir = both];
+190490203->1993191331[dir = both];
+1993191331->1797763792[dir = both];
+1797763792->1337347604[dir = both];
+1337347604->293618119[dir = both];
+293618119->170611939[dir = both];
+170611939->1548535364[dir = both];
+1548535364->569894199[dir = both];
+569894199->854202039[dir = both];
+854202039->1656143941[dir = both];
+1656143941->1492276401[dir = both];
+1492276401->1186127045[dir = both];
+1186127045->604976394[dir = both];
+604976394->1886350630[dir = both];
+1886350630->989001798[dir = both];
+989001798->1794531113[dir = both];
+1794531113->923570200[dir = both];
+923570200->1015139714[dir = both];
+1015139714->287056540[dir = both];
+287056540->1238055041[dir = both];
+1238055041->437583344[dir = both];
+437583344->676060909[dir = both];
+676060909->1488130490[dir = both];
+1488130490->1210856733[dir = both];
+1210856733->1978317461[dir = both];
+1978317461->52477555[dir = both];
+52477555->1130250604[dir = both];
+1130250604->1794314439[dir = both];
+1794314439->1257058590[dir = both];
+1257058590->1278790934[dir = both];
+1278790934->2111615196[dir = both];
+2111615196->257684104[dir = both];
+257684104->740120508[dir = both];
+740120508->650608468[dir = both];
+650608468->1048928512[dir = both];
+1048928512->1855589354[dir = both];
+1855589354->687608114[dir = both];
+687608114->895280806[dir = both];
+895280806->541330540[dir = both];
+541330540->507479765[dir = both];
+507479765->1443000737[dir = both];
+1443000737->79283217[dir = both];
+79283217->69115782[dir = both];
+69115782->1727379710[dir = both];
+1727379710->591352568[dir = both];
+591352568->1777112002[dir = both];
+1777112002->436126678[dir = both];
+436126678->1384626783[dir = both];
+1384626783->192318053[dir = both];
+192318053->109673034[dir = both];
+109673034->1770453310[dir = both];
+1770453310->113042195[dir = both];
+113042195->958817283[dir = both];
+958817283->1957691975[dir = both];
+1957691975->715213542[dir = both];
+715213542->1273270490[dir = both];
+1273270490->1097397209[dir = both];
+1097397209->893281161[dir = both];
+893281161->367589810[dir = both];
+367589810->2053491093[dir = both];
+2053491093->2090142523[dir = both];
+2090142523->988876043[dir = both];
+988876043->1745241742[dir = both];
+1745241742->1014698874[dir = both];
+1014698874->1751325469[dir = both];
+1144838820->994173375[dir = both];
+994173375->1637651402[dir = both];
+1637651402->1215208733[dir = both];
+1215208733->1789237070[dir = both];
+1789237070->1583210428[dir = both];
+1583210428->1541019006[dir = both];
+1541019006->1742798189[dir = both];
+1742798189->557386040[dir = both];
+557386040->287933084[dir = both];
+287933084->441652258[dir = both];
+441652258->2050525584[dir = both];
+2050525584->320945958[dir = both];
+320945958->1312907964[dir = both];
+1312907964->1278319954[dir = both];
+1278319954->1929115981[dir = both];
+1929115981->1748574267[dir = both];
+1748574267->757660418[dir = both];
+757660418->1840457976[dir = both];
+1840457976->1076856210[dir = both];
+1076856210->1639341396[dir = both];
+1639341396->187452043[dir = both];
+187452043->2133612542[dir = both];
+2133612542->1133731484[dir = both];
+1133731484->270333767[dir = both];
+270333767->2030931933[dir = both];
+2030931933->832648870[dir = both];
+2030931933->483832253[dir = both];
+483832253->5338884[dir = both];
+5338884->1259950595[dir = both];
+832648870->379833480[dir = both];
+832648870->591678006[dir = both];
+591678006->816440283[dir = both];
+816440283->798695894[dir = both];
+379833480->1195854264[dir = both];
+379833480->772791273[dir = both];
+772791273->1768641212[dir = both];
+1768641212->529026006[dir = both];
+1195854264->1946815838[dir = both];
+1946815838->687947506[dir = both];
+687947506->1158611509[dir = both];
+687947506->1325931357[dir = both];
+1325931357->427980296[dir = both];
+427980296->347416758[dir = both];
+1158611509->264138968[dir = both];
+1158611509->116994272[dir = both];
+116994272->2026005178[dir = both];
+2026005178->2100073313[dir = both];
+264138968->1572423881[dir = both];
+264138968->849199636[dir = both];
+849199636->1677857831[dir = both];
+1677857831->2100048989[dir = both];
+1572423881->1828884696[dir = both];
+1572423881->561890446[dir = both];
+561890446->695131253[dir = both];
+695131253->897358809[dir = both];
+1828884696->866073173[dir = both];
+1828884696->2062184524[dir = both];
+2062184524->844133497[dir = both];
+844133497->1663271865[dir = both];
+866073173->1788408659[dir = both];
+866073173->1256384385[dir = both];
+1256384385->48063459[dir = both];
+48063459->2098992714[dir = both];
+1788408659->62085016[dir = both];
+62085016->503365602[dir = both];
+503365602->1191372709[dir = both];
+1191372709->1781368445[dir = both];
+1781368445->1941639991[dir = both];
+1941639991->1751080205[dir = both];
+1751080205->942714988[dir = both];
+942714988->1042863993[dir = both];
+1042863993->354502944[dir = both];
+354502944->126147004[dir = both];
+126147004->973777648[dir = both];
+973777648->1113666007[dir = both];
+1113666007->1570117874[dir = both];
+1570117874->2088661957[dir = both];
+2088661957->332139408[dir = both];
+332139408->1483243447[dir = both];
+1483243447->894746048[dir = both];
+894746048->976949492[dir = both];
+976949492->347239869[dir = both];
+976949492->547305607[dir = both];
+547305607->1534279415[dir = both];
+1534279415->1984954272[dir = both];
+1984954272->2001882279[dir = both];
+2001882279->417621837[dir = both];
+417621837->1794509290[dir = both];
+347239869->1567732992[dir = both];
+347239869->971324399[dir = both];
+971324399->1322354584[dir = both];
+1322354584->1258539949[dir = both];
+1258539949->1529457505[dir = both];
+1529457505->1546727972[dir = both];
+1546727972->505316221[dir = both];
+1567732992->1590099678[dir = both];
+1567732992->1268088240[dir = both];
+1268088240->142871704[dir = both];
+142871704->1651205022[dir = both];
+1651205022->41155230[dir = both];
+41155230->1383761509[dir = both];
+1383761509->2058526846[dir = both];
+1590099678->1812422301[dir = both];
+1590099678->1132219173[dir = both];
+1132219173->1476985549[dir = both];
+1476985549->928508130[dir = both];
+928508130->374585422[dir = both];
+374585422->2139788372[dir = both];
+2139788372->1871048194[dir = both];
+1812422301->1796615884[dir = both];
+1812422301->1738345448[dir = both];
+1738345448->1191464829[dir = both];
+1191464829->129059937[dir = both];
+129059937->907858780[dir = both];
+1796615884->1453632464[dir = both];
+1796615884->1248079435[dir = both];
+1248079435->994084545[dir = both];
+994084545->1487543666[dir = both];
+1487543666->869758554[dir = both];
+1453632464->321192242[dir = both];
+1453632464->1777163938[dir = both];
+1777163938->1592618491[dir = both];
+1592618491->1442883034[dir = both];
+1442883034->1427892726[dir = both];
+321192242->1153180745[dir = both];
+321192242->647111342[dir = both];
+647111342->1087916281[dir = both];
+1087916281->1250315597[dir = both];
+1250315597->2100728289[dir = both];
+1153180745->975790343[dir = both];
+1153180745->1184965604[dir = both];
+1184965604->1009313206[dir = both];
+975790343->1461001018[dir = both];
+975790343->1968751179[dir = both];
+1968751179->521311335[dir = both];
+1461001018->799692219[dir = both];
+1461001018->1684854630[dir = both];
+1684854630->642087302[dir = both];
+799692219->187737357[dir = both];
+799692219->771715205[dir = both];
+771715205->1343838143[dir = both];
+187737357->1572066684[dir = both];
+187737357->1562221939[dir = both];
+1562221939->1984577117[dir = both];
+1572066684->16957838[dir = both];
+1572066684->1819552644[dir = both];
+1819552644->1403325194[dir = both];
+1403325194->1958375413[dir = both];
+1958375413->962548461[dir = both];
+16957838->188193734[dir = both];
+16957838->2055501967[dir = both];
+2055501967->652268444[dir = both];
+652268444->1709913495[dir = both];
+1709913495->1014135205[dir = both];
+188193734->260580453[dir = both];
+188193734->736874772[dir = both];
+736874772->927744186[dir = both];
+927744186->417118375[dir = both];
+417118375->1842002393[dir = both];
+260580453->923366543[dir = both];
+260580453->1511319053[dir = both];
+1511319053->1928117427[dir = both];
+923366543->964895360[dir = both];
+923366543->1246807878[dir = both];
+1246807878->2045560071[dir = both];
+2045560071->1861416877[dir = both];
+1861416877->584349634[dir = both];
+584349634->1585824283[dir = both];
+1585824283->1105129521[dir = both];
+964895360->628694336[dir = both];
+964895360->954742840[dir = both];
+954742840->1231469233[dir = both];
+1231469233->2131723476[dir = both];
+2131723476->115297013[dir = both];
+115297013->652803980[dir = both];
+652803980->1520921298[dir = both];
+628694336->230610941[dir = both];
+628694336->1494051958[dir = both];
+1494051958->1150063356[dir = both];
+1150063356->622625093[dir = both];
+622625093->398468940[dir = both];
+398468940->2059316201[dir = both];
+2059316201->1510333744[dir = both];
+230610941->2120154283[dir = both];
+230610941->458385820[dir = both];
+458385820->38851648[dir = both];
+2120154283->872699266[dir = both];
+2120154283->1992844647[dir = both];
+1992844647->94690722[dir = both];
+872699266->147077478[dir = both];
+872699266->30604162[dir = both];
+30604162->1035361293[dir = both];
+147077478->295937119[dir = both];
+147077478->517787604[dir = both];
+517787604->519751097[dir = both];
+295937119->1769565136[dir = both];
+1769565136->1088381072[dir = both];
+1088381072->146842175[dir = both];
+146842175->72187428[dir = both];
+72187428->650687126[dir = both];
+650687126->489200959[dir = both];
+489200959->284427775[dir = both];
+284427775->2133325211[dir = both];
+2133325211->479769835[dir = both];
+479769835->1166021410[dir = both];
+1166021410->1969958288[dir = both];
+1969958288->891327883[dir = both];
+891327883->1824931880[dir = both];
+1824931880->689588113[dir = both];
+689588113->95545487[dir = both];
+95545487->873249151[dir = both];
+873249151->1779787990[dir = both];
+1779787990->298355914[dir = both];
+298355914->456653804[dir = both];
+456653804->1243705012[dir = both];
+1243705012->196340990[dir = both];
+2127862399->1677960357[dir = both];
+2127862399->1144838820[constraint=false, dir=both];
+1144838820->994173375[constraint=false, dir=both];
+994173375->1637651402[constraint=false, dir=both];
+1637651402->1215208733[constraint=false, dir=both];
+1215208733->1789237070[constraint=false, dir=both];
+1789237070->1583210428[constraint=false, dir=both];
+1583210428->1541019006[constraint=false, dir=both];
+1541019006->1742798189[constraint=false, dir=both];
+1742798189->557386040[constraint=false, dir=both];
+557386040->287933084[constraint=false, dir=both];
+287933084->441652258[constraint=false, dir=both];
+441652258->2050525584[constraint=false, dir=both];
+2050525584->320945958[constraint=false, dir=both];
+320945958->1312907964[constraint=false, dir=both];
+1312907964->1278319954[constraint=false, dir=both];
+1278319954->1929115981[constraint=false, dir=both];
+1929115981->1748574267[constraint=false, dir=both];
+1748574267->757660418[constraint=false, dir=both];
+757660418->1840457976[constraint=false, dir=both];
+1840457976->1076856210[constraint=false, dir=both];
+1076856210->1639341396[constraint=false, dir=both];
+1639341396->187452043[constraint=false, dir=both];
+187452043->2133612542[constraint=false, dir=both];
+2133612542->1133731484[constraint=false, dir=both];
+1133731484->270333767[constraint=false, dir=both];
+270333767->2030931933[constraint=false, dir=both];
+2030931933->832648870[constraint=false, dir=both];
+832648870->379833480[constraint=false, dir=both];
+379833480->1195854264[constraint=false, dir=both];
+1195854264->1946815838[constraint=false, dir=both];
+1946815838->687947506[constraint=false, dir=both];
+687947506->1158611509[constraint=false, dir=both];
+1158611509->264138968[constraint=false, dir=both];
+264138968->1572423881[constraint=false, dir=both];
+1572423881->1828884696[constraint=false, dir=both];
+1828884696->866073173[constraint=false, dir=both];
+866073173->1788408659[constraint=false, dir=both];
+1788408659->62085016[constraint=false, dir=both];
+62085016->503365602[constraint=false, dir=both];
+503365602->1191372709[constraint=false, dir=both];
+1191372709->1781368445[constraint=false, dir=both];
+1781368445->1941639991[constraint=false, dir=both];
+1941639991->1751080205[constraint=false, dir=both];
+1751080205->942714988[constraint=false, dir=both];
+942714988->1042863993[constraint=false, dir=both];
+1042863993->354502944[constraint=false, dir=both];
+354502944->126147004[constraint=false, dir=both];
+126147004->973777648[constraint=false, dir=both];
+973777648->1113666007[constraint=false, dir=both];
+1113666007->1570117874[constraint=false, dir=both];
+1570117874->2088661957[constraint=false, dir=both];
+2088661957->332139408[constraint=false, dir=both];
+332139408->1483243447[constraint=false, dir=both];
+1483243447->894746048[constraint=false, dir=both];
+894746048->976949492[constraint=false, dir=both];
+976949492->347239869[constraint=false, dir=both];
+347239869->1567732992[constraint=false, dir=both];
+1567732992->1590099678[constraint=false, dir=both];
+1590099678->1812422301[constraint=false, dir=both];
+1812422301->1796615884[constraint=false, dir=both];
+1796615884->1453632464[constraint=false, dir=both];
+1453632464->321192242[constraint=false, dir=both];
+321192242->1153180745[constraint=false, dir=both];
+1153180745->975790343[constraint=false, dir=both];
+975790343->1461001018[constraint=false, dir=both];
+1461001018->799692219[constraint=false, dir=both];
+799692219->187737357[constraint=false, dir=both];
+187737357->1572066684[constraint=false, dir=both];
+1572066684->16957838[constraint=false, dir=both];
+16957838->188193734[constraint=false, dir=both];
+188193734->260580453[constraint=false, dir=both];
+260580453->923366543[constraint=false, dir=both];
+923366543->964895360[constraint=false, dir=both];
+964895360->628694336[constraint=false, dir=both];
+628694336->230610941[constraint=false, dir=both];
+230610941->2120154283[constraint=false, dir=both];
+2120154283->872699266[constraint=false, dir=both];
+872699266->147077478[constraint=false, dir=both];
+147077478->295937119[constraint=false, dir=both];
+295937119->1769565136[constraint=false, dir=both];
+1769565136->1088381072[constraint=false, dir=both];
+1088381072->146842175[constraint=false, dir=both];
+146842175->72187428[constraint=false, dir=both];
+72187428->650687126[constraint=false, dir=both];
+650687126->489200959[constraint=false, dir=both];
+489200959->284427775[constraint=false, dir=both];
+284427775->2133325211[constraint=false, dir=both];
+2133325211->479769835[constraint=false, dir=both];
+479769835->1166021410[constraint=false, dir=both];
+1166021410->1969958288[constraint=false, dir=both];
+1969958288->891327883[constraint=false, dir=both];
+891327883->1824931880[constraint=false, dir=both];
+1824931880->689588113[constraint=false, dir=both];
+689588113->95545487[constraint=false, dir=both];
+95545487->873249151[constraint=false, dir=both];
+873249151->1779787990[constraint=false, dir=both];
+1779787990->298355914[constraint=false, dir=both];
+298355914->456653804[constraint=false, dir=both];
+456653804->1243705012[constraint=false, dir=both];
+1243705012->196340990[constraint=false, dir=both];
+1677960357->1035825415[dir = both];
+1035825415->1248595768[dir = both];
+1248595768->1602880207[dir = both];
+1602880207->651535127[dir = both];
+651535127->1891031939[dir = both];
+1891031939->1510543202[dir = both];
+1510543202->1436218006[dir = both];
+1436218006->1591492137[dir = both];
+1591492137->410033330[dir = both];
+410033330->177267393[dir = both];
+177267393->144486215[dir = both];
+144486215->923727115[dir = both];
+923727115->730298964[dir = both];
+730298964->646710031[dir = both];
+646710031->1267168782[dir = both];
+1267168782->199320792[dir = both];
+199320792->455404074[dir = both];
+455404074->1576408634[dir = both];
+1576408634->758201484[dir = both];
+758201484->771119702[dir = both];
+771119702->289378424[dir = both];
+289378424->2081751971[dir = both];
+2081751971->1482986993[dir = both];
+1482986993->1205817409[dir = both];
+1205817409->705602706[dir = both];
+705602706->2119344747[dir = both];
+2119344747->48589645[dir = both];
+48589645->1065713160[dir = both];
+1065713160->1617983326[dir = both];
+1617983326->190496961[dir = both];
+190496961->575438308[dir = both];
+575438308->917316251[dir = both];
+917316251->1434741143[dir = both];
+1434741143->134604590[dir = both];
+134604590->1231493271[dir = both];
+1231493271->377570010[dir = both];
+377570010->1623148876[dir = both];
+1623148876->1201991394[dir = both];
+1201991394->922150177[dir = both];
+922150177->721286839[dir = both];
+721286839->814886797[dir = both];
+814886797->1344345219[dir = both];
+1344345219->1375681611[dir = both];
+1375681611->343023757[dir = both];
+343023757->901614537[dir = both];
+901614537->1843397873[dir = both];
+1843397873->1171611746[dir = both];
+1171611746->1076250141[dir = both];
+1076250141->421293587[dir = both];
+421293587->1949709901[dir = both];
+1949709901->445554393[dir = both];
+445554393->1760175419[dir = both];
+1760175419->318550723[dir = both];
+318550723->1472031375[dir = both];
+1472031375->967532279[dir = both];
+967532279->2009900903[dir = both];
+967532279->483832253[constraint=false, dir=both];
+483832253->591678006[constraint=false, dir=both];
+591678006->772791273[constraint=false, dir=both];
+2009900903->682025329[dir = both];
+2009900903->5338884[constraint=false, dir=both];
+5338884->816440283[constraint=false, dir=both];
+816440283->1768641212[constraint=false, dir=both];
+682025329->643570300[dir = both];
+682025329->1259950595[constraint=false, dir=both];
+1259950595->798695894[constraint=false, dir=both];
+798695894->529026006[constraint=false, dir=both];
+643570300->1529580934[dir = both];
+1529580934->2146372416[dir = both];
+2146372416->1597594849[dir = both];
+1597594849->435167872[dir = both];
+435167872->506518405[dir = both];
+506518405->214560653[dir = both];
+506518405->1325931357[constraint=false, dir=both];
+1325931357->116994272[constraint=false, dir=both];
+116994272->849199636[constraint=false, dir=both];
+849199636->561890446[constraint=false, dir=both];
+561890446->2062184524[constraint=false, dir=both];
+2062184524->1256384385[constraint=false, dir=both];
+214560653->205595990[dir = both];
+214560653->427980296[constraint=false, dir=both];
+427980296->2026005178[constraint=false, dir=both];
+2026005178->1677857831[constraint=false, dir=both];
+1677857831->695131253[constraint=false, dir=both];
+695131253->844133497[constraint=false, dir=both];
+844133497->48063459[constraint=false, dir=both];
+205595990->1230507176[dir = both];
+205595990->347416758[constraint=false, dir=both];
+347416758->2100073313[constraint=false, dir=both];
+2100073313->2100048989[constraint=false, dir=both];
+2100048989->897358809[constraint=false, dir=both];
+897358809->1663271865[constraint=false, dir=both];
+1663271865->2098992714[constraint=false, dir=both];
+1230507176->1381386227[dir = both];
+1381386227->1123830468[dir = both];
+1123830468->547507935[dir = both];
+547507935->697707311[dir = both];
+697707311->1226803249[dir = both];
+1226803249->1763000764[dir = both];
+1763000764->1134864869[dir = both];
+1763000764->547305607[constraint=false, dir=both];
+547305607->971324399[constraint=false, dir=both];
+971324399->1268088240[constraint=false, dir=both];
+1268088240->1132219173[constraint=false, dir=both];
+1132219173->1738345448[constraint=false, dir=both];
+1738345448->1248079435[constraint=false, dir=both];
+1248079435->1777163938[constraint=false, dir=both];
+1777163938->647111342[constraint=false, dir=both];
+647111342->1184965604[constraint=false, dir=both];
+1184965604->1968751179[constraint=false, dir=both];
+1968751179->1684854630[constraint=false, dir=both];
+1684854630->771715205[constraint=false, dir=both];
+771715205->1562221939[constraint=false, dir=both];
+1562221939->1819552644[constraint=false, dir=both];
+1819552644->2055501967[constraint=false, dir=both];
+2055501967->736874772[constraint=false, dir=both];
+1134864869->890525812[dir = both];
+1134864869->1534279415[constraint=false, dir=both];
+1534279415->1322354584[constraint=false, dir=both];
+1322354584->142871704[constraint=false, dir=both];
+142871704->1476985549[constraint=false, dir=both];
+1476985549->1191464829[constraint=false, dir=both];
+1191464829->994084545[constraint=false, dir=both];
+994084545->1592618491[constraint=false, dir=both];
+1592618491->1087916281[constraint=false, dir=both];
+1087916281->1009313206[constraint=false, dir=both];
+1009313206->521311335[constraint=false, dir=both];
+521311335->642087302[constraint=false, dir=both];
+642087302->1343838143[constraint=false, dir=both];
+1343838143->1984577117[constraint=false, dir=both];
+1984577117->1403325194[constraint=false, dir=both];
+1403325194->652268444[constraint=false, dir=both];
+652268444->927744186[constraint=false, dir=both];
+890525812->299837481[dir = both];
+890525812->1984954272[constraint=false, dir=both];
+1984954272->1258539949[constraint=false, dir=both];
+1258539949->1651205022[constraint=false, dir=both];
+1651205022->928508130[constraint=false, dir=both];
+299837481->254041053[dir = both];
+299837481->2001882279[constraint=false, dir=both];
+2001882279->1529457505[constraint=false, dir=both];
+1529457505->41155230[constraint=false, dir=both];
+41155230->374585422[constraint=false, dir=both];
+254041053->42007293[dir = both];
+254041053->417621837[constraint=false, dir=both];
+417621837->1546727972[constraint=false, dir=both];
+1546727972->1383761509[constraint=false, dir=both];
+1383761509->2139788372[constraint=false, dir=both];
+2139788372->1246807878[constraint=false, dir=both];
+1246807878->954742840[constraint=false, dir=both];
+954742840->1494051958[constraint=false, dir=both];
+42007293->150783284[dir = both];
+42007293->1794509290[constraint=false, dir=both];
+1794509290->505316221[constraint=false, dir=both];
+505316221->2058526846[constraint=false, dir=both];
+2058526846->1871048194[constraint=false, dir=both];
+1871048194->2045560071[constraint=false, dir=both];
+2045560071->1231469233[constraint=false, dir=both];
+1231469233->1150063356[constraint=false, dir=both];
+150783284->1582928128[dir = both];
+150783284->1861416877[constraint=false, dir=both];
+1861416877->2131723476[constraint=false, dir=both];
+2131723476->622625093[constraint=false, dir=both];
+1582928128->994267665[dir = both];
+1582928128->584349634[constraint=false, dir=both];
+584349634->115297013[constraint=false, dir=both];
+115297013->398468940[constraint=false, dir=both];
+994267665->1487365582[dir = both];
+994267665->129059937[constraint=false, dir=both];
+129059937->1487543666[constraint=false, dir=both];
+1487543666->1442883034[constraint=false, dir=both];
+1442883034->1250315597[constraint=false, dir=both];
+1250315597->1958375413[constraint=false, dir=both];
+1958375413->1709913495[constraint=false, dir=both];
+1709913495->417118375[constraint=false, dir=both];
+417118375->1511319053[constraint=false, dir=both];
+1511319053->1585824283[constraint=false, dir=both];
+1585824283->652803980[constraint=false, dir=both];
+652803980->2059316201[constraint=false, dir=both];
+2059316201->458385820[constraint=false, dir=both];
+458385820->1992844647[constraint=false, dir=both];
+1992844647->30604162[constraint=false, dir=both];
+30604162->517787604[constraint=false, dir=both];
+1487365582->1590202270[dir = both];
+1487365582->907858780[constraint=false, dir=both];
+907858780->869758554[constraint=false, dir=both];
+869758554->1427892726[constraint=false, dir=both];
+1427892726->2100728289[constraint=false, dir=both];
+2100728289->962548461[constraint=false, dir=both];
+962548461->1014135205[constraint=false, dir=both];
+1014135205->1842002393[constraint=false, dir=both];
+1842002393->1928117427[constraint=false, dir=both];
+1928117427->1105129521[constraint=false, dir=both];
+1105129521->1520921298[constraint=false, dir=both];
+1520921298->1510333744[constraint=false, dir=both];
+1510333744->38851648[constraint=false, dir=both];
+38851648->94690722[constraint=false, dir=both];
+94690722->1035361293[constraint=false, dir=both];
+1035361293->519751097[constraint=false, dir=both];
+1590202270->2047145776[dir = both];
+2047145776->990994954[dir = both];
+990994954->802270602[dir = both];
+802270602->897541009[dir = both];
+897541009->1755295609[dir = both];
+1755295609->1479446866[dir = both];
+1479446866->2050083360[dir = both];
+2050083360->882658588[dir = both];
+882658588->569235601[dir = both];
+569235601->233142783[dir = both];
+233142783->2037498537[dir = both];
+2037498537->802395190[dir = both];
+802395190->1622534157[dir = both];
+1622534157->1178160997[dir = both];
+1178160997->833272193[dir = both];
+833272193->40626598[dir = both];
+40626598->1297189990[dir = both];
+1297189990->1092591822[dir = both];
+1092591822->622690269[dir = both];
+622690269->2028372993[dir = both];
+2028372993->957683143[dir = both];
+957683143->95476731[dir = both];
+95476731->1268629255[dir = both];
+1268629255->127401209[dir = both];
+127401209->381516513[dir = both];
+381516513->366023886[dir = both];
+366023886->856880372[dir = both];
+856880372->190490203[dir = both];
+190490203->1993191331[dir = both];
+1993191331->1797763792[dir = both];
+1797763792->1337347604[dir = both];
+1337347604->293618119[dir = both];
+293618119->170611939[dir = both];
+170611939->1548535364[dir = both];
+1548535364->569894199[dir = both];
+569894199->854202039[dir = both];
+854202039->1656143941[dir = both];
+1656143941->1492276401[dir = both];
+1492276401->1186127045[dir = both];
+1186127045->604976394[dir = both];
+604976394->1886350630[dir = both];
+1886350630->989001798[dir = both];
+989001798->1794531113[dir = both];
+1794531113->923570200[dir = both];
+923570200->1015139714[dir = both];
+1015139714->287056540[dir = both];
+287056540->1238055041[dir = both];
+1238055041->437583344[dir = both];
+437583344->676060909[dir = both];
+676060909->1488130490[dir = both];
+1488130490->1210856733[dir = both];
+1210856733->1978317461[dir = both];
+1978317461->52477555[dir = both];
+52477555->1130250604[dir = both];
+1130250604->1794314439[dir = both];
+1794314439->1257058590[dir = both];
+1257058590->1278790934[dir = both];
+1278790934->2111615196[dir = both];
+2111615196->257684104[dir = both];
+257684104->740120508[dir = both];
+740120508->650608468[dir = both];
+650608468->1048928512[dir = both];
+1048928512->1855589354[dir = both];
+1855589354->687608114[dir = both];
+687608114->895280806[dir = both];
+895280806->541330540[dir = both];
+541330540->507479765[dir = both];
+507479765->1443000737[dir = both];
+1443000737->79283217[dir = both];
+79283217->69115782[dir = both];
+69115782->1727379710[dir = both];
+1727379710->591352568[dir = both];
+591352568->1777112002[dir = both];
+1777112002->436126678[dir = both];
+436126678->1384626783[dir = both];
+1384626783->192318053[dir = both];
+192318053->109673034[dir = both];
+109673034->1770453310[dir = both];
+1770453310->113042195[dir = both];
+113042195->958817283[dir = both];
+958817283->1957691975[dir = both];
+1957691975->715213542[dir = both];
+715213542->1273270490[dir = both];
+1273270490->1097397209[dir = both];
+1097397209->893281161[dir = both];
+893281161->367589810[dir = both];
+367589810->2053491093[dir = both];
+2053491093->2090142523[dir = both];
+2090142523->988876043[dir = both];
+988876043->1745241742[dir = both];
+1745241742->1014698874[dir = both];
+1014698874->1751325469[dir = both];
+{rank=same; 2127862399;1144838820;994173375;1637651402;1215208733;1789237070;1583210428;1541019006;1742798189;557386040;287933084;441652258;2050525584;320945958;1312907964;1278319954;1929115981;1748574267;757660418;1840457976;1076856210;1639341396;187452043;2133612542;1133731484;270333767;2030931933;832648870;379833480;1195854264;1946815838;687947506;1158611509;264138968;1572423881;1828884696;866073173;1788408659;62085016;503365602;1191372709;1781368445;1941639991;1751080205;942714988;1042863993;354502944;126147004;973777648;1113666007;1570117874;2088661957;332139408;1483243447;894746048;976949492;347239869;1567732992;1590099678;1812422301;1796615884;1453632464;321192242;1153180745;975790343;1461001018;799692219;187737357;1572066684;16957838;188193734;260580453;923366543;964895360;628694336;230610941;2120154283;872699266;147077478;295937119;1769565136;1088381072;146842175;72187428;650687126;489200959;284427775;2133325211;479769835;1166021410;1969958288;891327883;1824931880;689588113;95545487;873249151;1779787990;298355914;456653804;1243705012;196340990;}
+{rank=same; 1677960357;}
+{rank=same; 1035825415;}
+{rank=same; 1248595768;}
+{rank=same; 1602880207;}
+{rank=same; 651535127;}
+{rank=same; 1891031939;}
+{rank=same; 1510543202;}
+{rank=same; 1436218006;}
+{rank=same; 1591492137;}
+{rank=same; 410033330;}
+{rank=same; 177267393;}
+{rank=same; 144486215;}
+{rank=same; 923727115;}
+{rank=same; 730298964;}
+{rank=same; 646710031;}
+{rank=same; 1267168782;}
+{rank=same; 199320792;}
+{rank=same; 455404074;}
+{rank=same; 1576408634;}
+{rank=same; 758201484;}
+{rank=same; 771119702;}
+{rank=same; 289378424;}
+{rank=same; 2081751971;}
+{rank=same; 1482986993;}
+{rank=same; 1205817409;}
+{rank=same; 705602706;}
+{rank=same; 2119344747;}
+{rank=same; 48589645;}
+{rank=same; 1065713160;}
+{rank=same; 1617983326;}
+{rank=same; 190496961;}
+{rank=same; 575438308;}
+{rank=same; 917316251;}
+{rank=same; 1434741143;}
+{rank=same; 134604590;}
+{rank=same; 1231493271;}
+{rank=same; 377570010;}
+{rank=same; 1623148876;}
+{rank=same; 1201991394;}
+{rank=same; 922150177;}
+{rank=same; 721286839;}
+{rank=same; 814886797;}
+{rank=same; 1344345219;}
+{rank=same; 1375681611;}
+{rank=same; 343023757;}
+{rank=same; 901614537;}
+{rank=same; 1843397873;}
+{rank=same; 1171611746;}
+{rank=same; 1076250141;}
+{rank=same; 421293587;}
+{rank=same; 1949709901;}
+{rank=same; 445554393;}
+{rank=same; 1760175419;}
+{rank=same; 318550723;}
+{rank=same; 1472031375;}
+{rank=same; 967532279;483832253;591678006;772791273;}
+{rank=same; 2009900903;5338884;816440283;1768641212;}
+{rank=same; 682025329;1259950595;798695894;529026006;}
+{rank=same; 643570300;}
+{rank=same; 1529580934;}
+{rank=same; 2146372416;}
+{rank=same; 1597594849;}
+{rank=same; 435167872;}
+{rank=same; 506518405;1325931357;116994272;849199636;561890446;2062184524;1256384385;}
+{rank=same; 214560653;427980296;2026005178;1677857831;695131253;844133497;48063459;}
+{rank=same; 205595990;347416758;2100073313;2100048989;897358809;1663271865;2098992714;}
+{rank=same; 1230507176;}
+{rank=same; 1381386227;}
+{rank=same; 1123830468;}
+{rank=same; 547507935;}
+{rank=same; 697707311;}
+{rank=same; 1226803249;}
+{rank=same; 1763000764;547305607;971324399;1268088240;1132219173;1738345448;1248079435;1777163938;647111342;1184965604;1968751179;1684854630;771715205;1562221939;1819552644;2055501967;736874772;}
+{rank=same; 1134864869;1534279415;1322354584;142871704;1476985549;1191464829;994084545;1592618491;1087916281;1009313206;521311335;642087302;1343838143;1984577117;1403325194;652268444;927744186;}
+{rank=same; 890525812;1984954272;1258539949;1651205022;928508130;}
+{rank=same; 299837481;2001882279;1529457505;41155230;374585422;}
+{rank=same; 254041053;417621837;1546727972;1383761509;2139788372;1246807878;954742840;1494051958;}
+{rank=same; 42007293;1794509290;505316221;2058526846;1871048194;2045560071;1231469233;1150063356;}
+{rank=same; 150783284;1861416877;2131723476;622625093;}
+{rank=same; 1582928128;584349634;115297013;398468940;}
+{rank=same; 994267665;129059937;1487543666;1442883034;1250315597;1958375413;1709913495;417118375;1511319053;1585824283;652803980;2059316201;458385820;1992844647;30604162;517787604;}
+{rank=same; 1487365582;907858780;869758554;1427892726;2100728289;962548461;1014135205;1842002393;1928117427;1105129521;1520921298;1510333744;38851648;94690722;1035361293;519751097;}
+{rank=same; 1590202270;}
+{rank=same; 2047145776;}
+{rank=same; 990994954;}
+{rank=same; 802270602;}
+{rank=same; 897541009;}
+{rank=same; 1755295609;}
+{rank=same; 1479446866;}
+{rank=same; 2050083360;}
+{rank=same; 882658588;}
+{rank=same; 569235601;}
+{rank=same; 233142783;}
+{rank=same; 2037498537;}
+{rank=same; 802395190;}
+{rank=same; 1622534157;}
+{rank=same; 1178160997;}
+{rank=same; 833272193;}
+{rank=same; 40626598;}
+{rank=same; 1297189990;}
+{rank=same; 1092591822;}
+{rank=same; 622690269;}
+{rank=same; 2028372993;}
+{rank=same; 957683143;}
+{rank=same; 95476731;}
+{rank=same; 1268629255;}
+{rank=same; 127401209;}
+{rank=same; 381516513;}
+{rank=same; 366023886;}
+{rank=same; 856880372;}
+{rank=same; 190490203;}
+{rank=same; 1993191331;}
+{rank=same; 1797763792;}
+{rank=same; 1337347604;}
+{rank=same; 293618119;}
+{rank=same; 170611939;}
+{rank=same; 1548535364;}
+{rank=same; 569894199;}
+{rank=same; 854202039;}
+{rank=same; 1656143941;}
+{rank=same; 1492276401;}
+{rank=same; 1186127045;}
+{rank=same; 604976394;}
+{rank=same; 1886350630;}
+{rank=same; 989001798;}
+{rank=same; 1794531113;}
+{rank=same; 923570200;}
+{rank=same; 1015139714;}
+{rank=same; 287056540;}
+{rank=same; 1238055041;}
+{rank=same; 437583344;}
+{rank=same; 676060909;}
+{rank=same; 1488130490;}
+{rank=same; 1210856733;}
+{rank=same; 1978317461;}
+{rank=same; 52477555;}
+{rank=same; 1130250604;}
+{rank=same; 1794314439;}
+{rank=same; 1257058590;}
+{rank=same; 1278790934;}
+{rank=same; 2111615196;}
+{rank=same; 257684104;}
+{rank=same; 740120508;}
+{rank=same; 650608468;}
+{rank=same; 1048928512;}
+{rank=same; 1855589354;}
+{rank=same; 687608114;}
+{rank=same; 895280806;}
+{rank=same; 541330540;}
+{rank=same; 507479765;}
+{rank=same; 1443000737;}
+{rank=same; 79283217;}
+{rank=same; 69115782;}
+{rank=same; 1727379710;}
+{rank=same; 591352568;}
+{rank=same; 1777112002;}
+{rank=same; 436126678;}
+{rank=same; 1384626783;}
+{rank=same; 192318053;}
+{rank=same; 109673034;}
+{rank=same; 1770453310;}
+{rank=same; 113042195;}
+{rank=same; 958817283;}
+{rank=same; 1957691975;}
+{rank=same; 715213542;}
+{rank=same; 1273270490;}
+{rank=same; 1097397209;}
+{rank=same; 893281161;}
+{rank=same; 367589810;}
+{rank=same; 2053491093;}
+{rank=same; 2090142523;}
+{rank=same; 988876043;}
+{rank=same; 1745241742;}
+{rank=same; 1014698874;}
+{rank=same; 1751325469;}
+}
