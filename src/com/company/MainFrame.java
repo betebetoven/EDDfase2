@@ -228,6 +228,7 @@ public class MainFrame extends  JFrame{
             public void actionPerformed(ActionEvent e) {
                 try {
                     ((cliente)cliente_actual.value).generarcapas();
+                    System.out.println(((cliente)cliente_actual.value).arbol_capas);
                 } catch (IOException ex) {
                     ex.printStackTrace();
                 }
