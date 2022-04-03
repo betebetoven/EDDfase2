@@ -48,6 +48,8 @@ public class MainFrame extends  JFrame{
     private JLabel usuario;
     private JPanel EspacioImagenes;
     private JLabel lista;
+    private JScrollPane Despliegue;
+    private JLabel llenado;
     private JScrollPane Espacio;
     //public static
     public static String dir;
@@ -255,14 +257,17 @@ public class MainFrame extends  JFrame{
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                ImageIcon bruh = new ImageIcon("C:\\Users\\Alberto\\IdeaProjects\\EDDfase2\\capa6.png");
-                JLabel q = new JLabel();
-                System.out.println("Si llega a la parte de imageicon");
-                q.setBounds(0,0,bruh.getIconWidth(),bruh.getIconHeight());
-                q.setIcon(bruh);
-                Espacio.setViewportView(q);
-                Espacio.updateUI();
-                Espacio.setVisible(true);
+                ImageIcon bruh = new ImageIcon("capa0.png");
+                //JLabel q = new JLabel();
+                //llenado.setBounds(0,0,bruh.getIconWidth(),bruh.getIconHeight());
+                llenado.setIcon(bruh);
+                //JScrollPane Espacio = new JScrollPane();
+                Despliegue.setViewportView(llenado);
+                //Despliegue.repaint();
+                //Espacioso.add(Espacio);
+
+                //Espacio.updateUI();
+                //Espacio.setVisible(true);
 
 
                 String nombre = textField3.getText();

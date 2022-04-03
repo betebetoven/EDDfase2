@@ -20,7 +20,7 @@ public class bst {
         if (n == null)
             return;
         ((kpa)n.value).m.correcion();
-        //((kpa)n.value).printpng();//ACTIVARLO PARA VOLVER A IMPRIMIR LOS PNG ESTO SI SE VUELVE A ACTIVAR
+        ((kpa)n.value).printpng();//ACTIVARLO PARA VOLVER A IMPRIMIR LOS PNG ESTO SI SE VUELVE A ACTIVAR
 
         System.out.println(n.value);
 
