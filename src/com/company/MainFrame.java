@@ -249,6 +249,7 @@ public class MainFrame extends  JFrame{
             public void actionPerformed(ActionEvent e) {
                 try {
                     ((cliente)cliente_actual.value).generaLE();
+                    System.out.println(((cliente)cliente_actual.value).avl_imagenes);
                 } catch (IOException ex) {
                     ex.printStackTrace();
                 }
@@ -258,12 +259,13 @@ public class MainFrame extends  JFrame{
             @Override
             public void actionPerformed(ActionEvent e) {
 
+
                 ImageIcon bruh = new ImageIcon("capa0.png");
-                //JLabel q = new JLabel();
-                //llenado.setBounds(0,0,bruh.getIconWidth(),bruh.getIconHeight());
-                llenado.setIcon(bruh);
-                //JScrollPane Espacio = new JScrollPane();
-                Despliegue.setViewportView(llenado);
+                JLabel p = new JLabel();
+                p.setBounds(100,100,bruh.getIconWidth(),bruh.getIconHeight());
+                p.setIcon(bruh);
+                Despliegue.setViewportView(p);
+                Despliegue.repaint();
                 //Despliegue.repaint();
                 //Espacioso.add(Espacio);
 
