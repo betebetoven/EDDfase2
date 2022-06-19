@@ -1,4 +1,4 @@
-export class AritmeticOption {
+class AritmeticOption {
     // Create new instances of the same class as static attributes
     static MAS = new AritmeticOption("MAS")//0
     static MENOS = new AritmeticOption("MENOS")//1
@@ -15,4 +15,5 @@ export class AritmeticOption {
       this.name = name
     }
   }
+  module.exports = {AritmeticOption};
   

@@ -1,2 +1,5 @@
 int a,b,c = 10;
-string sofi = "sofi";
+const int d = 15;
+string quepeo= "hola como tas";
+int coco = 20*5;
+a = d;

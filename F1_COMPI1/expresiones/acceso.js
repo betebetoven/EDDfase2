@@ -1,10 +1,10 @@
-import { Expression } from "../abstract/express.js";
-import { Retorno } from "../abstract/Retorno.js";
-import { Environment } from "../symbols/enviroment.js";
-import { Type } from "../symbols/type.js";
+const { Expression } = require("../abstract/express.js");
+const { Retorno } = require ("../abstract/Retorno.js");
+//import { Environment } from "../symbols/enviroment.js";
+//import { Type } from "../symbols/type.js";
 
 
-export class Acceso extends Expression {
+class Acceso extends Expression {
     constructor( id,line,column) {
         super(line, column) 
         this.id = id;
@@ -42,3 +42,4 @@ export class Acceso extends Expression {
 
     }
 }
+module.exports = {Acceso};

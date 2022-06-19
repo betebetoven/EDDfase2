@@ -1,6 +1,6 @@
-import { Type } from "../symbols/type.js";
+//import { Type } from "../symbols/type.js";
 
-export class Retorno{
+class Retorno{
     constructor(value, type) {
         this.value = value;
         this.type = type;
@@ -8,3 +8,4 @@ export class Retorno{
     }
     
 }
+module.exports = {Retorno};

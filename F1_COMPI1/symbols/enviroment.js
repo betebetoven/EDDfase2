@@ -1,8 +1,8 @@
 //import { metodo } from "../instrucciones/metodo";
-import { Symbol } from "./symbols.js";
-import { Type } from "./type.js";
+const { Symbol }= require ("./symbols.js");
+const { Type } = require ("./type.js");
 
-export class Environment {
+class Environment {
   
    //tablaSimbolos: Map<string, Symbol>; //unicamente para variables, tienes q guardar funciones en otro map 
    //tablaSimbolos = new Map();
@@ -80,4 +80,5 @@ get_metodo(nombre) {
     return null;
   }
   
-}                       
+}  
+module.exports = {Environment}                     

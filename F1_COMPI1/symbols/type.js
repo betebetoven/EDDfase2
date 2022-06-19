@@ -1,4 +1,4 @@
-export class Type {
+class Type {
     // Create new instances of the same class as static attributes
     static NUMBER = new Type("NUMBER")//0
     static STRING = new Type("STRING")//1
@@ -10,4 +10,5 @@ export class Type {
       this.name = name
     }
   }
+  module.exports = {Type};
   

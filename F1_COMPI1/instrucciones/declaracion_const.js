@@ -1,9 +1,9 @@
-import { Expression } from "../abstract/express.js";
-import { Instruccion } from "../abstract/instruccion.js";
-import { Environment } from "../symbols/enviroment.js";
-import { Type } from "../symbols/type.js";
+//import { Expression } from "../abstract/express.js";
+const { Instruccion } = require ("../abstract/instruccion.js");
+//import { Environment } from "../symbols/enviroment.js";
+//import { Type } from "../symbols/type.js";
 //HACER FINAL EN LA DECLARACION DE LA VARIABLE O HACERSELO DE ATRIBUTO
-export class Declaracion_const extends Instruccion {
+class Declaracion_const extends Instruccion {
     constructor(  nombre, tipo,expresion,line, column) {
         super(line,column);
         this.nombre = nombre;
@@ -38,3 +38,4 @@ export class Declaracion_const extends Instruccion {
         
     }
 }
+module.exports = {Declaracion_const};

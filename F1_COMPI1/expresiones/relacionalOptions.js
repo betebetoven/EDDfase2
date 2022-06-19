@@ -1,4 +1,4 @@
-export class RelacionalOption {
+class RelacionalOption {
     static MAYOR = new RelacionalOption("MAYOR")//0
     static MENOR = new RelacionalOption("MENOR")//1
     static MAYORIGUAL = new RelacionalOption("MAYORIGUAL")//2
@@ -14,3 +14,4 @@ export class RelacionalOption {
       this.name = name
     }
 }
+module.exports = {RelacionalOption};

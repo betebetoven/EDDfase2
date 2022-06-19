@@ -14,8 +14,8 @@
    //const {Sentencia_if} = require('./instrucciones/condicionIf')
     //const {metodo} = require('./instrucciones/metodo')
     //const {llamada} = require('./instrucciones/llamada')
-    const { RelacionalOption } = require("./relacionalOptions.js");
-    const { Relacional } = require("./relacional.js");
+    const { RelacionalOption } = require("./expresiones/relacionalOptions.js");
+    const { Relacional } = require("./expresiones/relacional.js");
     var array_erroresLexicos;
    
 %}

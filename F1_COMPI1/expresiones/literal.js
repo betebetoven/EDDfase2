@@ -1,18 +1,19 @@
-import { Expression } from "../abstract/express.js"
-import { Retorno } from "../abstract/retorno.js"
-import { Type } from "../symbols/type.js"
+const { Expression } = require("../abstract/express.js")
+const { Retorno } = require("../abstract/retorno.js")
+const { Type } = require("../symbols/type.js")
+const { Instruccion } = require( "../abstract/instruccion.js");
 
 
-export class Literal extends Expression {
+class Literal extends Expression {
 
     constructor( value, type,line,column) {
         
-        super(line, column)
+        super(line, column);
         this.value= value;
         this.type = type;
     }
 
-     executar(){
+     executar(env){
          var rtn = new Retorno(null, null);
         
         if (this.type == Type.NUMBER)
@@ -57,3 +58,4 @@ export class Literal extends Expression {
 
     }
 }
+module.exports = {Literal};

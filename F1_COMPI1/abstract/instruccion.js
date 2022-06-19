@@ -1,6 +1,5 @@
-import { Environment } from "../symbols/enviroment.js";
-
-export  class Instruccion {
+//import { Environment } from "../symbols/enviroment.js";
+class Instruccion {
     
     constructor( line,column) {
         this.line= line;
@@ -11,3 +10,4 @@ export  class Instruccion {
      {Object}
     //public abstract graficaraAST(): any
 }
+module.exports = {Instruccion};

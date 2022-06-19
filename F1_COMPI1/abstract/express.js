@@ -1,7 +1,7 @@
-import { Retorno } from "./Retorno.js"
-import { Environment } from "../symbols/enviroment.js"
+const { Retorno } = require("./Retorno.js")
+//import { Environment } from "../symbols/enviroment.js"
 
-export class Expression {
+class Expression {
 
     constructor(line ,column) {
         this.line = line
@@ -12,3 +12,4 @@ export class Expression {
          Retorno}
 
 }
+module.exports = {Expression};

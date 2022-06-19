@@ -1,16 +1,18 @@
-import { Expression } from "../abstract/express.js"
-import { Retorno } from "../abstract/Retorno.js"
-import { Environment } from "../symbols/enviroment.js"
-import { Type } from "../symbols/type.js"
-import { AritmeticOption } from "./aritmeticOption.js"
+const { Expression }= require ("../abstract/express.js")
+const { Retorno } = require ("../abstract/Retorno.js")
+//import { Environment } from "../symbols/enviroment.js"
+const { Type } = require("../symbols/type.js")
+const {Literal} = require("../expresiones/literal.js")
+const { AritmeticOption }= require ("./aritmeticOption.js")
 
-export class Arithmetic extends Expression {
+class Arithmetic extends Expression {
 
     constructor( left, right, type,line,column) {
+        super(line, column)
         this.left = left;
         this.right = right;
         this.type = type;
-        super(line, column)
+        
     }
      // el env queda para los accesos a las variables se use o no pero si lo pide chingadamadre
      executar(env){
@@ -19,31 +21,43 @@ export class Arithmetic extends Expression {
         
 
         
-        const nodoDer = null;
+        var nodoDer = null;
        
-        const nodoIzq = this.left.executar(env)
+        var nodoIzq = this.left.executar(env)
         if(this.right != null)
         {
-         nodoDer = this.right.executar(env)
+            console.log("POR QUE NO LLEGA HASTA ACAAAAAAA 1");
+        console.log("type del this"+this.type.name);
+        console.log(this.type == AritmeticOption.MULTIPLICACION);
+        
+        console.log(this.right.executar(env))
+         nodoDer = this.right.executar(env);
+        console.log("aca deberia de salir el nodo der ya siendo retorno")
+        console.log(nodoDer)
+        
         
             if(nodoDer.type == Type.VARIABLE)
             {
-                nodoDer.type = env.getTipo_variable(nodoDer.value)
-                nodoDer.value = env.get_variable(nodoDer.value).value
+                nodoDer.type = env.getTipo_variable(nodoDer.value);
+                nodoDer.value = env.get_variable(nodoDer.value).value;
             }
             if(nodoIzq.type == Type.VARIABLE)
             {
-                nodoIzq.type = env.getTipo_variable(nodoIzq.value)
-                nodoIzq.value = env.get_variable(nodoIzq.value).value
+                nodoIzq.type = env.getTipo_variable(nodoIzq.value);
+                nodoIzq.value = env.get_variable(nodoIzq.value).value;
             }
+        console.log("POR QUE NO LLEGA HASTA ACAAAAAAA")
+        console.log("type del this"+this.type.name)
+        console.log(this.type == AritmeticOption.MULTIPLICACION)
 
         if (this.type == AritmeticOption.MAS) {
+            console.log("DEBERIA ENTRAR A HACER LA SUMAAAAAAAAAAAAAAAAAA SUMAAAAAAAA")
 
    
             
             if (nodoDer.type == Type.NUMBER && nodoIzq.type == Type.NUMBER) {
                 result = { 
-                    value: (nodoIzq.value + nodoDer.value), 
+                    value: Number(nodoIzq.value + nodoDer.value), 
                     type: Type.NUMBER 
                 }
             }else if (nodoDer.type == Type.NUMBER && nodoIzq.type == Type.STRING
@@ -57,30 +71,7 @@ export class Arithmetic extends Expression {
                     value: (String(nodoIzq.value) + String(nodoDer.value)), 
                     type: Type.STRING 
                 }
-            }/*else if (nodoIzq.type == Type.BOOLEAN && nodoDer.type == Type.NUMBER ) {
-                const val:number= nodoIzq.value? 1:0
-                result = { 
-                    value: ( val+nodoDer.value), 
-                    type: Type.NUMBER 
-                }
             }
-            else if (nodoDer.type == Type.BOOLEAN && nodoIzq.type == Type.NUMBER ) {
-                const val:number= nodoDer.value? 1:0
-                result = { 
-                    value: ( val+nodoIzq.value), 
-                    type: Type.NUMBER 
-                }
-            }
-            else if (nodoIzq.type == Type.BOOLEAN || nodoDer.type == Type.BOOLEAN ) {
-                const val1:number= nodoIzq.value? 1:0
-                const val2:number= nodoDer.value? 1:0
-                result = { 
-                    value: ( val1+val2), 
-                    type: Type.NUMBER 
-                }
-            }*/
-            
-            //demas validadionces para la operaciones aritmeticas
             
         }else if (this.type == AritmeticOption.MENOS) {
 
@@ -95,9 +86,12 @@ export class Arithmetic extends Expression {
             
         }else if(this.type == AritmeticOption.MULTIPLICACION)
         {
+            console.log("POPR QUE NO ENTRA A LA MUTLIIIIIIIIIIIII")
             if (nodoDer.type == Type.NUMBER && nodoIzq.type == Type.NUMBER) {
+                console.log("DEBERIA ENTRAR A HACER LA multiplicacioooooooooooooooon")
+
                 result = { 
-                    value: (nodoIzq.value * nodoDer.value), 
+                    value: Number(nodoIzq.value * nodoDer.value), 
                     type: Type.NUMBER 
                 }
             }
@@ -191,3 +185,4 @@ export class Arithmetic extends Expression {
 
 
 }
+module.exports = {Arithmetic};

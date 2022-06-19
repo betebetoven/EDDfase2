@@ -1,13 +1,15 @@
-import { Expression } from "../abstract/express.js";
-import { Instruccion } from "../abstract/instruccion.js";
-import { Environment } from "../symbols/enviroment.js";
-import { Type } from "../symbols/type.js";
+const { Expression } = require("../abstract/express.js");
+const { Instruccion } = require("../abstract/instruccion.js");
+//import { Environment } from "../symbols/enviroment.js";
+const { Type } =  require("../symbols/type.js");
+const { Symbol }= require ("../symbols/symbols.js");
 
-export class Asignacion extends Instruccion {
+class Asignacion extends Instruccion {
     constructor(nombre ,valor ,line, column ) {
+        super(line,column);
         this.nombre = nombre;
         this.valor = valor;
-        super(line,column);
+       
     }
 
      executar(env) {
@@ -25,7 +27,8 @@ export class Asignacion extends Instruccion {
              if(tmp == tmp2)
              {
                  const tmp3 = env.get_variable(this.valor).value
-                 env.actualizar_variable(this.nombre,tmp3);
+                 const tmp4 = env.get_variable(this.nombre)
+                 env.actualizar_variable(this.nombre,new Symbol(tmp3, this.nombre, tmp,tmp4.editable));
 
              }
 
@@ -40,3 +43,4 @@ export class Asignacion extends Instruccion {
         
     }
 }
+module.exports = {Asignacion};

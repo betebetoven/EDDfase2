@@ -1,9 +1,9 @@
 
-import { Instruccion } from "../abstract/instruccion.js";
-import { Environment } from "../symbols/enviroment.js";
+const { Instruccion } = require("../abstract/instruccion.js");
+const { Environment } = require("../symbols/enviroment.js");
 
 
-export class Bloque extends Instruccion {
+class Bloque extends Instruccion {
     constructor(instrucciones,line, column) {//INSTRUCCIONES ES UN ARRAY
         this.instrucciones = instrucciones;
         super(line,column);
@@ -36,3 +36,4 @@ export class Bloque extends Instruccion {
         
     }
 }
+module.exports= {Bloque};

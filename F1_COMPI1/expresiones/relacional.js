@@ -1,11 +1,10 @@
-import { Expression } from "../abstract/express.js";
-import { Retorno } from "../abstract/Retorno.js";
-import { Environment } from "../symbols/enviroment.js";
-import { Type } from "../symbols/type.js";
-import { AritmeticOption } from "./aritmeticOption.js";
-import { RelacionalOption } from "./relacionalOptions.js";
-
-export class Relacional extends Expression {
+const { Expression } = require("../abstract/express.js");
+const { Retorno } = require("../abstract/Retorno.js");
+//import { Environment } from "../symbols/enviroment.js";
+const { Type } = require("../symbols/type.js");
+//import { AritmeticOption } from "./aritmeticOption.js";
+const { RelacionalOption } = require("./relacionalOptions.js");
+class Relacional extends Expression {
 
     constructor(left ,right ,type ,line,column) {
         this.left = left;
@@ -154,3 +153,4 @@ export class Relacional extends Expression {
 
 
 }
+module.exports = {Relacional};
