@@ -32,7 +32,13 @@ app.listen(app.get('port'),() =>{
   console.log(`server on port ${app.get('port')}`)
  
 })
-
+function mapToObj(map){
+  const obj = {}
+  for (let [k,v] of map)
+    obj[k] = v
+  return obj
+}
+var entri = "";
 app.get('/p', function (req, res) {
   fs.readFile("./entrada.txt", (err, data) => {
     if (err) throw err;
@@ -52,8 +58,11 @@ app.get('/p', function (req, res) {
 }
 console.log(env_padre.tablaSimbolos)
 var j = "";
+var myjson = {}
+myjson.myMap = mapToObj(env_padre.tablaSimbolos);
 j = env_padre.tablaSimbolos;
-    res.json({ msg:env_padre.tablaSimbolos.keys  });
+  console.log(myjson);
+    res.json({ myjson  });
   });
   
 });
