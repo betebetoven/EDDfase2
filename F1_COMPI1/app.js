@@ -1,29 +1,39 @@
 const { Environment } = require("./symbols/enviroment.js");
 var fs = require("fs");
 var gramatica = require("./prueba.js");
-
-
-
-
-var express = require('express');
-var morgan = require('morgan');
+const express = require('express');
+const morgan = require('morgan');
 const { publicDecrypt } = require("crypto");
-var app = express();
-const path = require('path')
+const path = require('path');
+const req = require("express/lib/request");
+const res = require("express/lib/response");
+const app = express();
 
-app.use(morgan('dev'))
-app.use(express.json())
-app.use(express.urlencoded({ extended: true }))
 
-app.listen(8080, function () {
+//app.use(morgan('dev'))
+//app.use(express.json())
+//app.use(express.urlencoded({ extended: true }))
+
+/*app.listen(8080, function () {
   console.log('app listening on port 8080!');
-});
+});*/
 
+app.set('port',process.env.PORT || 8080)
+app.get('/submit',(req,res)=>{
+
+})
 //static
-app.use(express.static(path.join(__dirname,'public')));
+app.use(express.static(path.join(__dirname,'/public')));
 
 const env_padre = new Environment(null);
-app.get('/', function (req, res) {
+var texto = "";
+app.listen(app.get('port'),() =>{
+ 
+  console.log(`server on port ${app.get('port')}`)
+ 
+})
+
+app.get('/p', function (req, res) {
   fs.readFile("./entrada.txt", (err, data) => {
     if (err) throw err;
    const ast =  gramatica.parse(data.toString());
@@ -41,7 +51,9 @@ app.get('/', function (req, res) {
     }
 }
 console.log(env_padre.tablaSimbolos)
-    res.json({ msg: "ok" });
+var j = "";
+j = env_padre.tablaSimbolos;
+    res.json({ msg:env_padre.tablaSimbolos.keys  });
   });
   
 });
